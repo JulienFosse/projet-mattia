@@ -1,0 +1,385 @@
+:root {
+    --garofoli: #0f8a43;
+    --secco: #dc0532;
+    --torterolo: #d11219;
+}
+
+
+/*Reset CSS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navbar///////////////////////////// //*/
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding-top: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-color {
+    background-color: rgba(228, 228, 228, 0.674);
+}
+
+
+/* fin Navbar ////////////////////////////*/
+
+
+/* Couleurs de la navbar et sous-menus ///*/
+
+li .link-garofoli:hover {
+    color: #0f8a43;
+}
+
+li .link-secco:hover {
+    color: #dc0532;
+}
+
+li .link-torterolo:hover {
+    color: #d11219;
+}
+
+.titre-garofoli:hover {
+    width: 30% !important;
+    border-bottom: 2px solid #0f8a43 !important;
+    margin: auto !important;
+}
+
+.titre-secco:hover {
+    width: 30% !important;
+    border-bottom: 2px solid #dc0532 !important;
+    margin: auto !important;
+}
+
+.titre-torterolo:hover {
+    width: 40% !important;
+    border-bottom: 2px solid #d11219 !important;
+    margin: auto !important;
+}
+
+li .link-other:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+li a {
+    transition: 0.4s;
+}
+
+
+/* fin couleurs navbar //////////////////////*/
+
+
+/* Div sous le titre principal/////////////// */
+
+.titre-garofoli {
+    width: 30% !important;
+    margin: auto !important;
+}
+
+.titre-secco {
+    width: 30% !important;
+    margin: auto !important;
+}
+
+.titre-torterolo {
+    width: 40% !important;
+    margin: auto !important;
+}
+
+.border-bottom-garofoli {
+    margin: 1.2em auto;
+    /* margin div de tous les titres /////////*/
+}
+
+
+/* fin div */
+
+
+/* Sous-menu Garofoli //////////////////////*/
+
+.garofoli-collection:hover .sous {
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 500%;
+    text-align: center;
+}
+
+.portes {
+    margin-left: 35% !important;
+}
+
+.modernes {
+    margin-left: -35% !important;
+}
+
+.portes-c {
+    margin-left: 25% !important;
+}
+
+.classiques {
+    margin-left: -40% !important;
+}
+
+.types-ouvertures {
+    margin-right: 5em !important;
+}
+
+.portes-modernes {
+    margin-right: 5em !important;
+}
+
+.font-color-garofoli {
+    color: #0f8a43;
+}
+
+
+/* fin sous-menu garofoli ////////////////*/
+
+
+/* Sous-menu SECCO //////////////////////*/
+
+.secco-collection:hover .sous {
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 240%;
+    text-align: center;
+}
+
+.listes-secco {
+    margin: 0 auto 1.2em auto !important;
+}
+
+.tous-les-produits {
+    margin: 100px auto !important;
+}
+
+.font-color-secco {
+    color: #dc0532;
+}
+
+
+/* Fin sous-menu SECCO //////////////////////*/
+
+
+/* Sous-menu TORTEROLO /////////////////////*/
+
+.torterolo-collection:hover .sous {
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 170%;
+    height: 250px;
+    text-align: center;
+    left: -50%;
+}
+
+.font-color-torterolo a {
+    color: #d11219;
+    cursor: pointer;
+}
+
+.font-color-torterolo:hover {
+    border-bottom: 2px solid #d11219;
+}
+
+
+/* Fin sous-menu TORTEROLO ///////////////////*/
+
+
+/* Sous-menu en général /////////////////////*/
+
+ol,
+ul {
+    padding-left: 0px !important;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+}
+
+.sous-li {
+    margin-bottom: 1.5em;
+    margin-top: 1.2em;
+}
+
+.sous-div {
+    margin: 0 1.5em;
+}
+
+.sous a {
+    padding: 7px 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+}
+
+
+/* Fin sous-menu en général */
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+
+/* HEADER */
+
+.header {
+    height: 92vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/images/header/Garofoli-porta-scorrevole-vetro-parquet-boiserie-Rovere-Nero-e1607946443492.jpg");
+}
+
+.titre-header {
+    margin-left: 100px;
+    margin-top: 200px;
+    color: white;
+}
+
+.second-titre-header {
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-header {
+    background-color: rgba(177, 175, 175, 0.352);
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.icon-header1 {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 28px;
+    font-size: 22px;
+    color: white;
+}
+
+.icon-header2 {
+    position: absolute;
+    bottom: 22px;
+    margin-left: 28px;
+    font-size: 22px;
+    color: white;
+}
+
+.text-btn-header {
+    color: white;
+    text-decoration: none;
+}
+
+.text-btn-header:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HOME ////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Parti garofoli */
+
+.types-douvertures {
+    text-align: right !important;
+}
+
+.border-bottom-typesdeportes {
+    height: 2px;
+    background-color: black;
+    width: 40%;
+}
+
+.border-bottom-materiaux {
+    height: 2px;
+    background-color: black;
+    width: 25%;
+}
+
+.border-bottom-typesdouvertures {
+    height: 2px;
+    background-color: black;
+    width: 48%;
+    float: right;
+}
+
+.border-bottom-collections {
+    height: 2px;
+    background-color: black;
+    width: 30%;
+}
+
+.survol-couleur-garofoli:hover {
+    color: #0f8a43;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.div-btn-garofoli {
+    margin-top: 100px
+}
+
+.btn-garofoli {
+    background-color: var(--garofoli);
+    border: none;
+    padding: 10px 20px 10px 10px;
+}
+
+.btn-garofoli:hover {
+    background-color: #0c7437;
+    border: none;
+    padding: 10px 20px 10px 10px;
+}
+
+.btn-garofoli a {
+    margin-right: 20px;
+}
