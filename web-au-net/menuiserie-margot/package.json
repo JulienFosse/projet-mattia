@@ -1,0 +1,21 @@
+{
+    "name": "menuiserie-margot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodemon --exec 'mocha ./test/*.js",
+        "start": "node app.js"
+
+    },
+    "author": "Julien Fosse",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "express-handlebars": "^6.0.2",
+        "mongoose": "^6.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

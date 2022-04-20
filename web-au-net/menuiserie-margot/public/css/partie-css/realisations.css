@@ -1,0 +1,12 @@
+.bg-real {
+    background-color: rgb(225, 225, 225);
+    height: 100vh;
+}
+
+.title-real {
+    text-decoration: underline;
+}
+
+.btn-dark {
+    cursor: pointer;
+}

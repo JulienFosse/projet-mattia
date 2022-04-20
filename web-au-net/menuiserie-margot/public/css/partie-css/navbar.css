@@ -1,0 +1,20 @@
+.navbar {
+    height: 10vh;
+}
+
+h5 {
+    font-size: 18px !important;
+}
+
+.bg-nav {
+    background-color: black;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+    position: absolute;
+}
+
+.btn-brand {
+    text-decoration: none;
+}
